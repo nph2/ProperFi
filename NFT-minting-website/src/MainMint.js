@@ -31,10 +31,8 @@ const MaintMint = ({ accounts, setAccounts }) => {
 
     fetch('https://api.verbwire.com/v1/nft/mint/createToken1155', options)
       .then(response => response.json())
-      .then(response => console.log(response))
-      .catch(err => console.error(err));
-    
-   alert(response);
+      .then(response => alert(response))
+      .catch(err => alert(err));
   }
 
   const handleDecrement = () => {
