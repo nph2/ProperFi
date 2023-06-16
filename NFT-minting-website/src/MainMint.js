@@ -23,7 +23,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
       method: 'POST',
       headers: {
         accept: 'application/json',
-        'X-API-Key': 'sk_live_f089015b-1ca5-40b4-b5d5-99e6e6073c99'
+        'X-API-Key': 'YOUR API KEY HERE'
       }
     };
 
